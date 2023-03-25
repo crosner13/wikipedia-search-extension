@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Wikipedia Quick Search",
+    "version": "1.0",
+
+    "description": "Adds a browser action icon to the toolbar. Click the button to search Wikipedia. Hit enter to open a new tab that shows the Wikipedia search results.",
+    "homepage_url": "https://github.com/crosner13/wikipedia-search-extension",
+    "icons": {
+        "48": "icons/wikipedia-quick-search-48.png",
+        "96": "icons/wikipedia-quick-search-96.png"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/wikipedia-quick-search-32.png",
+        "default_title": "Wikipedia QUick Search",
+        "default_popup":"popup/search_wikipedia.html"
+    }
+}
